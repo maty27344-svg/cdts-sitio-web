@@ -1,0 +1,17 @@
+ACTIVIDAD 6 — BOOTSTRAP
+Extrae toda la carpeta antes de abrir index.html.
+Para editar, abre la carpeta completa en Visual Studio Code.
+Bootstrap y las imágenes son locales: el sitio no necesita internet.
+
+Estructura: index.html, css/, js/, imagenes/, paginas/.
+Computadora: contenido 9 columnas y lateral 3.
+Tableta: contenido 8 columnas y lateral 4.
+Celular: secciones apiladas y menú desplegable.
+
+Los archivos Bootstrap 5.3.8 provienen del ZIP proporcionado y conservan su licencia MIT.
+Las imágenes provienen de cdts.rar.
+La página es una maqueta escolar, no un sitio oficial de CDTS.
+
+El Word de evidencias y la subida a Drive siguen pendientes.
+La guía visual mencionada en el PDF no estaba incluida en los archivos recibidos;
+la coincidencia exacta con esa referencia todavía no se ha verificado.

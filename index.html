@@ -1,2 +1,81 @@
-<!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CDTS</title><meta http-equiv="refresh" content="0;url=Actividad6_Bootstrap/"></head><body><a href="Actividad6_Bootstrap/">Abrir sitio CDTS</a></body></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CDTS | Desarrollo de talentos</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<a class="visually-hidden-focusable" href="#contenido">Saltar al contenido</a>
+<div class="container-fluid sitio p-0" id="inicio">
+  <header>
+    <img class="img-fluid w-100 d-block" src="imagenes/cara_nino.png" alt="Centro para el Desarrollo de Talentos y Sobresalientes A. C.">
+    <nav class="navbar navbar-expand-lg navbar-dark p-0" aria-label="Navegación principal">
+      <div class="container-fluid px-3 px-lg-0">
+        <span class="navbar-brand d-lg-none">CDTS</span>
+        <button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir o cerrar menú"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="menu"><ul class="navbar-nav w-100 justify-content-evenly">
+          <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cdts">CDTS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#talentos">Talentos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#publicaciones">Publicaciones</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul></div>
+      </div>
+    </nav>
+  </header>
+  <main id="contenido">
+    <!-- g-0 elimina espacios entre columnas e imágenes. -->
+    <section class="row g-0" aria-label="Presentación"><div class="col-12"><img class="img-fluid w-100 d-block" src="imagenes/nino_escuchando.png" alt="Niño con un teléfono de latas y una frase sobre escuchar a los hijos"></div></section>
+    <div class="row g-0">
+      <!-- Celular: 12 columnas. Tableta: 8. Computadora: 9. -->
+      <div class="col-12 col-md-8 col-lg-9">
+        <section id="cdts" class="p-4 p-lg-5">
+          <p class="antetitulo">CENTRO PARA EL DESARROLLO DE TALENTOS Y SOBRESALIENTES</p>
+          <h1>Un espacio para descubrir todo lo que podemos ser</h1>
+          <p class="entradilla">Cada niña y cada niño tiene una forma propia de aprender, imaginar y crear.</p>
+          <p>El juego, el arte y la convivencia ofrecen oportunidades para explorar habilidades. Conoce las actividades y encuentra nuevas maneras de acompañar el desarrollo infantil.</p>
+          <a class="enlace" href="#talentos">Descubre nuestros talentos →</a>
+        </section>
+        <section id="talentos" aria-labelledby="titulo-talentos">
+          <div class="titulo-seccion px-4 py-3"><h2 id="titulo-talentos" class="m-0">Aprender también es jugar</h2></div>
+          <!-- Galería: una columna en teléfono, dos en tableta y tres en computadora. -->
+          <div class="row g-0 galeria">
+            <article class="col-12 col-sm-6 col-lg-4"><img class="img-fluid w-100 d-block" src="imagenes/creatividad.jpg" alt="Niños creando una figura de papel"><div class="p-3"><h3>Creatividad</h3><p>Crear con las manos y compartir ideas abre nuevas posibilidades.</p></div></article>
+            <article class="col-12 col-sm-6 col-lg-4"><img class="img-fluid w-100 d-block" src="imagenes/dibujo.jpg" alt="Dibujo con crayones de colores"><div class="p-3"><h3>Expresión</h3><p>El dibujo permite comunicar emociones e imaginar otros mundos.</p></div></article>
+            <article class="col-12 col-sm-6 col-lg-4"><img class="img-fluid w-100 d-block" src="imagenes/actividad.jpg" alt="Niña con una pelota"><div class="p-3"><h3>Movimiento</h3><p>La actividad física invita a explorar, convivir y trabajar en equipo.</p></div></article>
+          </div>
+        </section>
+      </div>
+      <aside class="col-12 col-md-4 col-lg-3 lateral p-4" id="servicios">
+        <h2>Nuestros servicios</h2>
+        <img class="img-fluid w-100 d-block my-3" src="imagenes/nina_jugando.png" alt="Niña explorando un juego">
+        <ul class="lista-servicios list-unstyled"><li>Desarrollo de habilidades</li><li>Juego y aprendizaje</li><li>Expresión artística</li><li>Orientación para familias</li></ul>
+        <section id="contacto" class="pt-3 mt-4 border-top">
+          <img class="img-fluid mb-3" src="imagenes/contacto.png" alt="Su opinión es importante">
+          <h3>Tu opinión cuenta</h3><p>Cuéntanos qué actividad te gustaría explorar.</p>
+          <button class="btn btn-cdts w-100" data-bs-toggle="modal" data-bs-target="#opinion" type="button">Compartir mi opinión</button>
+        </section>
+      </aside>
+    </div>
+    <section class="row g-0 publicaciones" id="publicaciones">
+      <div class="col-12 col-md-5"><img class="img-fluid w-100 d-block h-100 foto-publicacion" src="imagenes/juegos.jpg" alt="Una adulta acompaña a dos niños en una actividad"></div>
+      <div class="col-12 col-md-7 p-4 p-lg-5"><p class="antetitulo">PARA SEGUIR EXPLORANDO</p><h2>Pequeñas actividades, grandes descubrimientos</h2><p>Construir, dibujar o inventar una historia puede ser el comienzo de un nuevo interés. Dedica un momento a observar lo que más disfrutan hacer.</p>
+        <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#ideas" aria-expanded="false" aria-controls="ideas">Ver ideas para casa</button>
+        <div class="collapse mt-3" id="ideas"><ul><li>Crear una historia a partir de un dibujo.</li><li>Construir una figura con materiales reutilizados.</li><li>Inventar un juego y explicar sus reglas.</li></ul></div>
+      </div>
+    </section>
+  </main>
+  <footer class="pie p-4 d-flex flex-column flex-sm-row justify-content-between gap-2"><span>CDTS · Talentos y habilidades</span><span>Actividad escolar 6 · Bootstrap</span></footer>
+</div>
+<div class="modal fade" id="opinion" tabindex="-1" aria-labelledby="titulo-opinion" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content">
+  <div class="modal-header"><h2 class="modal-title fs-5" id="titulo-opinion">Comparte tu opinión</h2><button class="btn-close" data-bs-dismiss="modal" type="button" aria-label="Cerrar"></button></div>
+  <form id="form-opinion"><div class="modal-body"><p>Demostración escolar: el texto no se guarda ni se envía.</p><label class="form-label" for="mensaje">¿Qué actividad te gustaría explorar?</label><textarea class="form-control" id="mensaje" rows="4" maxlength="500" required></textarea><p id="respuesta" class="mt-3" role="status"></p></div><div class="modal-footer"><button class="btn btn-cdts" type="submit">Listo</button></div></form>
+</div></div></div>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+/* Bootstrap organiza la cuadrícula; esta hoja personaliza la apariencia. */
+:root{--azul:#10112e;--morado:#555080;--claro:#eeeaf5}
+html{scroll-behavior:smooth;scroll-padding-top:1rem}
+body{margin:0;background:#e9e8ee;color:#35354b;font-family:Arial,Helvetica,sans-serif}
+.sitio{max-width:1050px;margin-inline:auto;background:white;box-shadow:0 0 30px #15112d1a}
+.navbar{background:#070a14}.navbar .nav-item{flex:1;border-right:1px solid #28273f}
+.navbar .nav-link{color:#f2efff;text-align:center;padding:.85rem 1rem;font-family:Georgia,serif}
+.navbar .nav-link:hover,.navbar .nav-link:focus-visible,.navbar .nav-link.active{background:#ffffff16;color:white}
+h1,h2,h3{color:var(--azul)}h1{font-family:Georgia,serif;font-size:clamp(1.9rem,3.2vw,2.55rem);line-height:1.16;margin-bottom:1.2rem}
+h2{font-family:Georgia,serif;font-size:1.65rem}h3{font-size:1.1rem;font-weight:700}p{line-height:1.7;font-size:.95rem}
+.antetitulo{color:var(--morado);font-size:.68rem;letter-spacing:.12em;font-weight:700}.entradilla{font-size:1.1rem;color:#565174}
+.enlace{color:#494274;font-weight:700;text-decoration:none}.enlace:hover{text-decoration:underline}
+.titulo-seccion{background:var(--claro)}.titulo-seccion h2{font-size:1.4rem}
+.galeria article:nth-child(2){background:#faf8fc}.galeria img{aspect-ratio:1.5;object-fit:cover}.galeria p{font-size:.83rem}
+.lateral{background:#f3f0f7}.lateral h2{font-size:1.35rem}.lateral p{font-size:.85rem}
+.lista-servicios li{font-size:.86rem;padding:.8rem 0;border-bottom:1px solid #dad5e4}.lista-servicios li::before{content:'›';color:#706490;margin-right:.65rem}
+.btn-cdts{background:#514672;color:white;border-color:#514672}.btn-cdts:hover,.btn-cdts:focus-visible{background:#352d50;color:white}
+.publicaciones{background:#25213f;color:#f0ecf8}.publicaciones h2{color:white;font-size:1.9rem}.publicaciones .antetitulo{color:#c0b4dd}
+.foto-publicacion{object-fit:cover;min-height:250px}.pie{background:#10102c;color:#d8d3e7;font-size:.72rem}
+@media(min-width:768px) and (max-width:991.98px){.lateral{padding:1.25rem!important}h1{font-size:2rem}}
+@media(max-width:767.98px){.sitio{box-shadow:none}.publicaciones h2{font-size:1.65rem}.lateral{border-top:1px solid #e1dce9}.lateral>img{max-width:300px}.foto-publicacion{max-height:320px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

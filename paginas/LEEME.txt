@@ -1,0 +1,1 @@
+Carpeta reservada para páginas adicionales. La página principal está en ../index.html.
